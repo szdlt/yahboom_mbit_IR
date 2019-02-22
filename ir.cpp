@@ -80,9 +80,9 @@ namespace Dlbot_IR {
     now = tsb.read_ms();
     if(now - lastact[(RemoteButton)buf[2]] < 100) return;
     lastact[(RemoteButton)buf[2]] = now;
-    printf("button0 = %c \r\n",buf[2]);
+  //  printf("button0 = %c \r\n",buf[2]);
     cA(actions[(RemoteButton)buf[2]]); 
-    printf("button1 = %c \r\n",buf[2]);
+  //  printf("button1 = %c \r\n",buf[2]);
   }
 
   void monitorIR(){
