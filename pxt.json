@@ -1,7 +1,7 @@
 {
-    "name": "Yahboom_mbit_IR",
+    "name": "Dlbot_IR",
     "version": "1.0.0",
-    "description": "Extension for YahBoom m:bit IR receiver module",
+    "description": "Extension for Dlbot IR receiver module",
     "license": "MIT",
     "dependencies": {
         "core": "*"
